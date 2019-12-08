@@ -22,7 +22,7 @@ export default () => {
           as='h1'
           textAlign='center'
           style={{
-            fontSize: '5rem',
+            fontSize: '3.5rem',
             color: '#fff',
             lineHeight: '100%',
           }}
@@ -32,11 +32,11 @@ export default () => {
         <Header.Subheader
           style={{
             textAlign: 'center',
-            fontSize: '2.82rem',
+            fontSize: '2rem',
             lineHeight: '100%',
           }}
         >
-          The ultimate things for doing stuff
+          A really catchy tagline goes here
         </Header.Subheader>
       </div>
 
@@ -44,10 +44,9 @@ export default () => {
       {/* Features */}
       {/*============================================*/}
       <Container style={{ marginTop: '2rem' }}>
-        <Grid verticalAlign='middle' columns={2}>
+        <Grid verticalAlign='middle' centered>
           <Grid.Row>
-            <Grid.Column width={3} />
-            <Grid.Column width={5}>
+            <Grid.Column computer={5} mobile={16} style={{ padding: '1rem' }}>
               <Segment placeholder>
                 <Icon
                   name='lightbulb outline'
@@ -59,7 +58,7 @@ export default () => {
                 />
               </Segment>
             </Grid.Column>
-            <Grid.Column width={5}>
+            <Grid.Column computer={5} mobile={16} style={{ padding: '1rem' }}>
               <Header as='h2' content='Light Bulb'>
               </Header>
               <p>
@@ -69,26 +68,9 @@ export default () => {
               </p>
               <Button>Learn More</Button>
             </Grid.Column>
-            <Grid.Column width={3} />
           </Grid.Row>
-        </Grid>
-      </Container>
-
-      <Container style={{ marginTop: '2rem' }}>
-        <Grid verticalAlign='middle' columns={2}>
-          <Grid.Row>
-            <Grid.Column width={3} />
-            <Grid.Column width={5} textAlign='right'>
-              <Header as='h2' content='Wrench'>
-              </Header>
-              <p>
-                Mauris gravida ante et pulvinar facilisis. Integer
-                faucibus accumsan quam, nec consectetur mi vestibulum
-                nec. Aliquam non commodo lacus, sit amet tempor elit.
-              </p>
-              <Button>Learn More</Button>
-            </Grid.Column>
-            <Grid.Column width={5}>
+          <Grid.Row reversed='computer'>
+            <Grid.Column computer={5} mobile={16} style={{ padding: '1rem' }}>
               <Segment placeholder>
                 <Icon
                   name='wrench'
@@ -100,7 +82,16 @@ export default () => {
                 />
               </Segment>
             </Grid.Column>
-            <Grid.Column width={3} />
+            <Grid.Column computer={5} mobile={16} textAlign='right' style={{ padding: '1rem' }}>
+              <Header as='h2' content='Wrench'>
+              </Header>
+              <p>
+                Mauris gravida ante et pulvinar facilisis. Integer
+                faucibus accumsan quam, nec consectetur mi vestibulum
+                nec. Aliquam non commodo lacus, sit amet tempor elit.
+              </p>
+              <Button>Learn More</Button>
+            </Grid.Column>
           </Grid.Row>
         </Grid>
       </Container>
