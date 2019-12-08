@@ -17,8 +17,11 @@ This is a simple front-end application built to demo Semantic UI's React impleme
 ## Build
 
 To test:
+
 `npm i`
+
 `npm start`
 
 To deploy:
+
 `npm run build`
