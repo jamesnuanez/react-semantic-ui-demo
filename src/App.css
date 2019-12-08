@@ -1,0 +1,16 @@
+html, body {
+  background: #eee;
+  height: 100%;
+}
+
+#root, .App {
+  height: 100%;
+}
+
+.ui.container {
+  margin-top: 3rem;
+}
+
+.ui.segment {
+  padding: 2rem;
+}
