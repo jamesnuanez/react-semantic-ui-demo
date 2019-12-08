@@ -2,6 +2,10 @@
 
 Build by James Nuanez in 2019.
 
+## Live demo
+
+https://react-semantic-ui-demo.netlify.com/
+
 ## About
 
 This is a simple front-end application built to demo Semantic UI's React implementation. Here are some things you can do:
