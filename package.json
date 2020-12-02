@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "React + Semantic UI Demo",
   "author": "James Nuanez <james@jamesnuanez.com> (http://www.jamesnuanez.com)",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
