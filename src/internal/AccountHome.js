@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Header, Segment, Icon } from 'semantic-ui-react';
 
 class AccountHome extends Component {
